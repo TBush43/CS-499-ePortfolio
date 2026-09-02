@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">On Weight</string>
+    <string name="on_weight">On Weight</string>
+    <string name="track_weight_cut">Track your weight cut</string>
+
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="create_account">Create Account</string>
+
+    <string name="dashboard">Dashboard</string>
+    <string name="goal_weight">Goal Weight: 170 lbs</string>
+    <string name="enter_weight">Enter weight</string>
+    <string name="add_weight">Add Weight</string>
+    <string name="sms_settings">SMS Settings</string>
+    <string name="recorded_weights">Recorded Weights</string>
+    <string name="sample_date">04/01/26 12:00pm</string>
+    <string name="sample_weight">178 lbs</string>
+    <string name="delete">Delete</string>
+
+    <string name="sms_notifications">SMS Notifications</string>
+    <string name="allow_sms_message">Allow SMS notifications when you reach your goal weight.</string>
+    <string name="allow_sms">Allow SMS</string>
+    <string name="deny">Deny</string>
+    <string name="status_placeholder">Status will appear here</string>
+</resources>
