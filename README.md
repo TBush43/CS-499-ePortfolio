@@ -4,11 +4,7 @@ This repository contains Thomas Bush's CS 499 capstone ePortfolio. The portfolio
 
 ## Portfolio
 
-The GitHub Pages site will be published at:
-
-<https://tbush43.github.io/CS-499-ePortfolio/>
-
-The site source is located in [`docs/`](docs/).
+The ePortfolio site source is located in [`docs/`](docs/). The repository is currently private. On the current GitHub plan, Pages publication requires either making the repository public or upgrading the account; the intended project-site address is `https://tbush43.github.io/CS-499-ePortfolio/` once publication is enabled.
 
 ## Capstone enhancement areas
 
@@ -31,4 +27,3 @@ The site source is located in [`docs/`](docs/).
 - Original CS 360 artifact preserved
 - Initial ePortfolio home page created
 - Enhancement implementation and narratives pending instructor feedback
-
