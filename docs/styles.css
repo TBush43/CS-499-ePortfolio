@@ -72,6 +72,15 @@ h3 {
   font-size: 1.15rem;
 }
 
+.review-video {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  margin: 16px 0;
+  background: #111;
+}
+
 p {
   margin: 0 0 14px;
 }
