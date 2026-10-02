@@ -26,13 +26,13 @@
     <section id="about" class="section">
       <h2>About Me</h2>
       <p>
-        My name is Thomas Bush. I am a computer science student working through my CS 499 capstone.
-        I am interested in full-stack development and in building applications that are useful,
-        organized, and easy to maintain.
+        My name is Thomas Bush. I work as a platform engineer and am pursuing a career in software
+        engineering. This ePortfolio shows how I improved an Android project from CS 360 during
+        my CS 499 capstone.
       </p>
       <p>
-        My code review is published below. I will add the enhanced artifact, enhancement narratives,
-        and final professional self-assessment as I complete the capstone.
+        The code review and three enhancement stages are available below. My final professional
+        self-assessment will complete the portfolio.
       </p>
     </section>
 
@@ -53,31 +53,62 @@
     </section>
 
     <section id="capstone" class="section">
-      <h2>Capstone Artifact</h2>
+      <h2>OnWeight Coach Capstone Artifact</h2>
       <p>
-        For my capstone, I plan to enhance my OnWeight Android project from CS 360. The original app
-        was a basic weight-tracking prototype. My goal is to turn it into a more complete coaching app
-        for tracking students, notes, attendance, goals, and follow-up needs.
+        I adapted my original OnWeight Android prototype into OnWeight Coach, a jiu-jitsu coaching
+        app prototype with a student roster, goals, attendance, session notes, and a review order
+        for students who may need follow-up. Each stage builds on the previous one.
       </p>
-
-      <h3>Planned Enhancements</h3>
-      <ul>
-        <li><strong>Software Design and Engineering:</strong> clean up the app structure and separate the screens, logic, and data layer.</li>
-        <li><strong>Algorithms and Data Structures:</strong> add a simple follow-up ranking feature to help decide which students need attention first.</li>
-        <li><strong>Databases:</strong> add local data storage for students, notes, attendance, and goals.</li>
-      </ul>
-
       <p>
         <a href="artifacts/onweight-original.zip">Download the original CS 360 artifact</a>
+      </p>
+
+      <h3>Software Design and Engineering</h3>
+      <p>
+        I replaced the original weight-focused screens with a coach workflow and separated screen
+        code, validation, and data access so the app is easier to test and extend.
+      </p>
+      <p class="artifact-links">
+        <a href="artifacts/onweight-software-enhancement.zip">Download code package</a>
+        <a href="artifacts/software-design-narrative.docx">Read enhancement narrative</a>
+        <a href="https://github.com/TBush43/CS-499-ePortfolio/tree/main/artifacts/enhanced/source">View source</a>
+      </p>
+
+      <h3>Algorithms and Data Structures</h3>
+      <p>
+        The dashboard now ranks students for coach review using dated attendance, notes, goal
+        deadlines, and a follow-up flag. It shows the reasons behind each score.
+      </p>
+      <p class="artifact-links">
+        <a href="artifacts/onweight-algorithms-enhancement.zip">Download code package</a>
+        <a href="artifacts/algorithms-narrative.docx">Read enhancement narrative</a>
+        <a href="https://github.com/TBush43/CS-499-ePortfolio/tree/main/artifacts/algorithm/source">View source</a>
+      </p>
+
+      <h3>Databases</h3>
+      <p>
+        I replaced temporary storage with related SQLite tables for students, goals, attendance,
+        and session notes. Records now persist after the app closes. This version is awaiting
+        instructor feedback before final polishing.
+      </p>
+      <p class="artifact-links">
+        <a href="artifacts/onweight-database-enhancement.zip">Download code package</a>
+        <a href="artifacts/database-narrative.docx">Read enhancement narrative</a>
+        <a href="https://github.com/TBush43/CS-499-ePortfolio/tree/main/artifacts/database/source">View source</a>
+      </p>
+      <p class="prototype-note">
+        This is a capstone prototype without coach sign-in or database encryption. Use fictional
+        student information only.
       </p>
     </section>
 
     <section id="outcomes" class="section">
       <h2>Course Outcomes</h2>
       <p>
-        I will use this project to show growth in communication, software design, algorithms,
-        databases, and security. As I complete each part of the project, I will connect the work
-        back to the CS 499 course outcomes.
+        The code review and narratives explain my design decisions. The enhanced app demonstrates
+        software structure, an explainable ranking algorithm, and relational data storage. Input
+        checks and backup exclusions show progress on privacy and security, while the prototype's
+        missing sign-in and encryption remain important limitations.
       </p>
       <ol>
         <li>Collaborate and make technical decisions clear.</li>

@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">OnWeight Coach</string>
+    <string name="demo_warning">Capstone prototype. Records are saved on this device, but there is no sign-in or database encryption. Use fictional student information only.</string>
+    <string name="open_roster">Open student roster</string>
+    <string name="roster_title">Student roster</string>
+    <string name="temporary_data">Fictional student records are saved on this device.</string>
+    <string name="add_student">Add student</string>
+    <string name="student_name">Student name</string>
+    <string name="save">Save</string>
+    <string name="empty_roster">No students yet. Add a fictional student to try the coaching workflow.</string>
+    <string name="goal_label">Training goal</string>
+    <string name="goal_hint">Enter a training goal</string>
+    <string name="save_goal">Save goal</string>
+    <string name="goal_saved">Goal saved</string>
+    <string name="goal_due_hint">Optional due date YYYY-MM-DD</string>
+    <string name="goal_complete">Goal complete</string>
+    <string name="attention_title">Coach review order</string>
+    <string name="no_attention">Add a student to see coaching priorities.</string>
+    <string name="attendance_total">Attendance check-ins: %1$d</string>
+    <string name="record_attendance">Record attendance check-in</string>
+    <string name="follow_up">Needs follow-up</string>
+    <string name="session_notes">Session notes</string>
+    <string name="note_hint">Technique, progress, or next step</string>
+    <string name="add_note">Add note</string>
+    <string name="empty_notes">No notes yet.</string>
+    <string name="student_not_found">Student not found</string>
+    <string-array name="belt_ranks">
+        <item>White belt</item>
+        <item>Blue belt</item>
+        <item>Purple belt</item>
+        <item>Brown belt</item>
+        <item>Black belt</item>
+    </string-array>
+</resources>
