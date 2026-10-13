@@ -1,4 +1,4 @@
-# Professional Self Assessment
+# Professional Self-Assessment
 
 Thomas Bush
 
