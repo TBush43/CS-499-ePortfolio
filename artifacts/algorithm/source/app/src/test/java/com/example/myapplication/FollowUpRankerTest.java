@@ -12,6 +12,7 @@ import java.util.Collections;
 import java.util.List;
 
 public class FollowUpRankerTest {
+    // Fixed dates make ranking cutoffs and tie behavior repeatable.
     private static final LocalDate TODAY = LocalDate.of(2026, 9, 22);
     private final FollowUpRanker ranker = new FollowUpRanker();
 

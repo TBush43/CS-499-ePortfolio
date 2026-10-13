@@ -9,6 +9,7 @@ import org.junit.Before;
 import org.junit.Test;
 
 public class CoachServiceTest {
+    // Check the coach workflow without starting Android.
     private CoachService service;
 
     @Before

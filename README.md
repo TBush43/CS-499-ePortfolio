@@ -18,6 +18,7 @@ The [ePortfolio site](https://tbush43.github.io/CS-499-ePortfolio/) is published
 - `artifacts/enhanced/` - Software design enhancement
 - `artifacts/algorithm/` - Algorithms and data structures enhancement
 - `artifacts/database/` - Database enhancement
+- `artifacts/final/` - Final app source and clean source-code package
 - `docs/` - GitHub Pages ePortfolio
 - `planning/` - Module One plan and milestone narratives
 - `submissions/` - Original-and-enhanced code packages
@@ -27,6 +28,7 @@ The [ePortfolio site](https://tbush43.github.io/CS-499-ePortfolio/) is published
 
 - Original CS 360 artifact preserved
 - Code review video published
-- Three enhancements and their narratives published for review
-- Database enhancement awaiting instructor feedback and an on-device test pass
-- Final professional self-assessment still to come
+- Three enhancements and their narratives prepared for the final portfolio
+- Final app polish completed; 19 local unit tests pass, with on-device SQLite tests still pending
+- Professional self-assessment completed and placed first on the portfolio page
+- The original CS 360 source is preserved unchanged to show the before-and-after progression

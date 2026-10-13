@@ -11,6 +11,7 @@ import org.junit.Test;
 import java.time.LocalDate;
 
 public class CoachServiceTest {
+    // Check that service updates feed the follow-up ranking correctly.
     private CoachService service;
 
     @Before

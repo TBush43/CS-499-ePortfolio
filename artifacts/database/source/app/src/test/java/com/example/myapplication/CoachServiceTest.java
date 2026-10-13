@@ -11,6 +11,7 @@ import org.junit.Test;
 import java.time.LocalDate;
 
 public class CoachServiceTest {
+    // Keep service rules testable without a device or SQLite database.
     private CoachService service;
 
     @Before

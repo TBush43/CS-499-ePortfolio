@@ -14,7 +14,7 @@
       <h1>Thomas Bush ePortfolio</h1>
     </div>
     <nav aria-label="Main navigation">
-      <a href="#about">About</a>
+      <a href="#self-assessment">Self-Assessment</a>
       <a href="#code-review">Code Review</a>
       <a href="#capstone">Capstone</a>
       <a href="#outcomes">Outcomes</a>
@@ -23,16 +23,41 @@
   </header>
 
   <main>
-    <section id="about" class="section">
-      <h2>About Me</h2>
+    <section id="self-assessment" class="section">
+      <h2>Professional Self-Assessment</h2>
       <p>
-        My name is Thomas Bush. I work as a platform engineer and am pursuing a career in software
-        engineering. This ePortfolio shows how I improved an Android project from CS 360 during
-        my CS 499 capstone.
+        I work as a platform engineer and am pursuing a software engineering career. My computer
+        science coursework has changed how I approach a feature: I consider the people who will use
+        it, the data it needs, the ways it can fail, and the developer who will maintain it later.
+        Building this ePortfolio gave me a way to show that growth in working code and explain the
+        choices behind it. I am especially interested in mobile and full-stack applications, where
+        a useful interface depends on sound design and dependable data handling.
       </p>
       <p>
-        The code review and three enhancement stages are available below. My final professional
-        self-assessment will complete the portfolio.
+        Platform engineering has made me attentive to people who depend on shared systems. In CS 499,
+        I made my decisions reviewable through a code review, source comments, and narratives for a
+        broader audience. My instructor asked for clearer comments, so I added concise explanations
+        of intent and non-obvious choices. This individual capstone did not simulate a full team, but
+        responding to feedback and making decisions legible are habits I would bring to one.
+      </p>
+      <p>
+        My coursework taught me to consider edge cases and trade-offs. For the coaching priority
+        feature, I combined related records by student ID and used a bounded priority queue to keep
+        only the top three students for review. The score includes readable reasons, and fixed-date
+        tests cover ties and boundary cases. In the app, I separated screens, service rules, and data
+        access, then used four related SQLite tables to preserve records across launches. Nineteen
+        local unit tests pass; on-device database testing remains to be verified.
+      </p>
+      <p>
+        My platform-engineering perspective also makes me careful about security claims. I removed
+        the original SMS permission and misleading login, validated input, used bound SQL arguments,
+        and excluded the database from Android backup. The prototype still lacks authentication,
+        access control, and database encryption, so it must use fictional student information only.
+        The code review below identifies the original weaknesses; the three enhancements show how the
+        design, algorithm, and database work build on one another.
+      </p>
+      <p>
+        <a href="artifacts/professional-self-assessment.docx">Download the complete self-assessment (Word)</a>
       </p>
     </section>
 
@@ -88,8 +113,8 @@
       <h3>Databases</h3>
       <p>
         I replaced temporary storage with related SQLite tables for students, goals, attendance,
-        and session notes. Records now persist after the app closes. This version is awaiting
-        instructor feedback before final polishing.
+        and session notes. Records now persist after the app closes. The final app also supports
+        editing a student and confirmed deletion of related records.
       </p>
       <p class="artifact-links">
         <a href="artifacts/onweight-database-enhancement.zip">Download code package</a>
@@ -99,6 +124,10 @@
       <p class="prototype-note">
         This is a capstone prototype without coach sign-in or database encryption. Use fictional
         student information only.
+      </p>
+      <p class="artifact-links">
+        <a href="artifacts/onweight-final-source.zip">Download the final app source</a>
+        <a href="https://github.com/TBush43/CS-499-ePortfolio/tree/main/artifacts/final/source">Browse the final source</a>
       </p>
     </section>
 
@@ -111,11 +140,11 @@
         missing sign-in and encryption remain important limitations.
       </p>
       <ol>
-        <li>Collaborate and make technical decisions clear.</li>
-        <li>Communicate technical work in writing, visuals, and video.</li>
-        <li>Use algorithms and computer science practices to solve problems.</li>
-        <li>Use tools and techniques that add value to the project.</li>
-        <li>Think about security, privacy, and safe handling of data.</li>
+        <li><strong>Collaborative decisions:</strong> The code review, source comments, and narratives make design choices visible to an instructor, teammate, or manager; I revised the comments in response to feedback.</li>
+        <li><strong>Professional communication:</strong> The video explains planned changes, the narratives reflect on each enhancement, and this site presents the progression for a non-specialist reader.</li>
+        <li><strong>Algorithmic solutions:</strong> The follow-up ranker uses maps and a bounded priority queue, with deterministic tests and an explicit complexity trade-off.</li>
+        <li><strong>Useful computing tools:</strong> Android, Java, SQLite, Gradle, unit tests, and lint support a working coaching workflow rather than isolated demonstrations.</li>
+        <li><strong>Security mindset:</strong> Validation, bound SQL arguments, and backup exclusions reduce some risks; the lack of sign-in and encryption is clearly disclosed.</li>
       </ol>
     </section>
   </main>
